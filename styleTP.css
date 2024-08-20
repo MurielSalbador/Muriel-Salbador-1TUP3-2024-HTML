@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(252, 252, 245);
+    margin: 20PX;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenedor{
+    text-align: center;
+} 
+
+img{
+    border-radius: 80px;
+    width:150px; 
+    height: 150px;
+    max-width: 100%;
+}
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px); /* Movimiento hacia arriba al pasar el mouse */
+}
+
+.social-icons img {
+    width: 50px; 
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño del icono al pasar el mouse */
+}
